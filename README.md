@@ -1,2 +1,3 @@
-# Dhvani-Web
- A music website.
+# Project Dhvani
+
+Develop an elegant React.js Music Application. 
