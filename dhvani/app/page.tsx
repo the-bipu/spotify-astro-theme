@@ -5,14 +5,16 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
-      <div>
+    <div className='bg-black h-screen overflow-hidden'>
+      <main>
         <Sidebar />
-      </div>
-      {/* <Center /> */}
+
+        {/* <Center /> */}
+      </main>
+
       <div>
         <Player />
       </div>
-    </main>
+    </div>
   )
 }
