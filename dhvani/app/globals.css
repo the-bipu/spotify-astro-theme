@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +19,7 @@
 }
 
 body {
+  font-family: 'Changa', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +27,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+* {
+  font-family: 'Doppio One', sans-serif;
 }
