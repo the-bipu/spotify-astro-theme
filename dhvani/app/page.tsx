@@ -4,16 +4,16 @@ import Sidebar from '@/components/Sidebar'
 
 export default function Home() {
   return (
-    <div className='bg-black h-screen overflow-hidden'>
-      <main>
-        <Sidebar />
+    <main className='bg-black h-screen overflow-hidden flex flex-col'>
+      <div className='flex flex-row h-[850%]'>
+          <Sidebar />
 
-        {/* <Center /> */}
-      </main>
+          <Center />
+      </div>
 
-      <div>
+      <div className='flex flex-row h-[15%]'>
         <Player />
       </div>
-    </div>
+    </main>
   )
 }
